@@ -1,6 +1,12 @@
 % Table of contents formatting
 \renewcommand{\contentsname}{Table of Contents}
 \setcounter{tocdepth}{3}
+
+\setcounter{secnumdepth}{4}
+
+
+% \renewcommand\thesection{\Roman{section}}
+
  
 % Headers and page numbering 
 \usepackage{fancyhdr}
@@ -30,8 +36,6 @@
   \color{chaptergrey}%
 }
 \makeatother
-
-\renewcommand\thesection{\arabic{section}}
 
 % Set colour of links to black so that they don't show up when printed
 \usepackage{hyperref}
