@@ -1,0 +1,5 @@
+{
+  "scripts":{
+    "pdf":"pandoc --latex-engine=xelatex -H 00_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=99_references/references.bib --csl='csl/nature.csl' 01_front_material/1_title.md 01_front_material/2_declaration.md 01_front_material/3_abstract.md 01_front_material/4_acknowledgements.md 05_toc/toc.md 10_chapters/chapter1_introduction/introduction.md 10_chapters/chapter1_introduction/introduction_section2.md 10_chapters/chapter3_extra_results.md 10_chapters/chapter4_generaldiscussion.md 88_appendices/a_meetings/meetings.md 99_references/references.md -o _THESIS.pdf"
+  }
+}
