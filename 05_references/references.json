@@ -1,0 +1,104 @@
+[
+  {
+    "id": "unity_cookbook",
+    "title": "Unity 5.x Coobook",
+    "type": "book",
+    "publisher": "Packt",
+    "publisher-place": "UK",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Matt"
+      },
+      {
+        "family": "Queiroz",
+        "given": "Chico"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    }
+  },
+
+  {
+    "id": "unity_cookbook",
+    "title": "Unity 5.x Coobook",
+    "type": "book",
+    "publisher": "Packt",
+    "publisher-place": "UK",
+    "author": [
+      {
+        "family": "Smith",
+        "given": "Matt"
+      },
+      {
+        "family": "Queiroz",
+        "given": "Chico"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    }
+  },
+
+  {
+    "id": "hitch_hikers_guide",
+    "publisher": "Pan",
+    "publisher-place": "UK",
+    "title": "Hitch Hiker's Guide to the Galaxy",
+    "type": "book",
+    "author": [
+      {
+        "family": "Adams",
+        "given": "Douglas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    }
+  },
+  {
+    "id": "Walczak:2010uk",
+    "publisher": "Pan",
+    "publisher-place": "UK",
+    "title": "Mechanisms of chromosome behaviour during mitosis",
+    "author": [
+      {
+        "family": "Walczak",
+        "given": "CE"
+      },
+      {
+        "family": "Cai",
+        "given": "S"
+      },
+      {
+        "family": "Khodjakov",
+        "given": "A"
+      }
+    ],
+    "type": "article-journal",
+    "journal":"Nature Reviews Molecular Cell Biology",
+    "issued": {
+      "date-parts": [
+        [
+          2006
+        ]
+      ]
+    },
+    "volume": "6",
+    "page":"33-34"
+  }
+  ]
+

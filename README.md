@@ -21,6 +21,14 @@ If you have Composer installed just type:
 
     $ composer pdf
 
+If you prefer JSON format for your list of reference items, the type:
+
+    $ composer json
+
+The only difference between these two Composer scripts (look inside `composer.json`) is the bit about references:
+
+    --bibliography=05_references/references.bib
+
 If not you need to enter the following at the command line:
 
     pandoc --latex-engine=xelatex -H preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=99_references/references.bib --csl='csl/nature.csl' 00_front_material/1_title.md 00_front_material/2_declaration.md 00_front_material/3_abstract.md 00_front_material/4_acknowledgements.md 05_toc/toc.md 10_chapters/chapter1_introduction/introduction.md 10_chapters/chapter1_introduction/introduction_section2.md 10_chapters/chapter3_extra_results.md 10_chapters/chapter4_generaldiscussion.md 88_appendices/a_meetings/meetings.md 99_references/references.md -o _THESIS.pdf
@@ -37,11 +45,15 @@ Only items that are cited will be added to the list of refernces in the generate
 
 ## Citations
 
-To cite a reference item write:
+To cite a reference item write the 'id' of the reference item in square brackets with an '@-at' sign as follows:
 
-        [@smith2017]
+    Lots of people have written about how wonderful Pandoc is, for example see [@smith2017].
 
-where `smith2017` is the unique 'id' of the reference item.
+where in the above `smith2017` is the unique 'id' of the reference item. This would output something like this (if citations mode is Harvard):
+
+    Lots of people have written about how wonderful Pandoc is, for example see (Smith 2017).
+
+
 
 In a LaTeX BibText reference collection this 'id' comes immediately after the opening brace `{`:
 
@@ -80,6 +92,16 @@ In a JSON reference collection the 'id' is explicilty named as an 'id' property.
               ]
             }
           },
+
+
+To cite a reference item without the authors' names, but just have the year/alpha bit, prefix the citation with a minus sign, e.g.:
+
+        Smith -[@smith2017] writes about how wonderful Pandoc is.
+
+would output something like this (if citations mode is Harvard):
+
+        Smith (2017) writes about how wonderful Pandoc is.
+
 
 ## Further reference
 
