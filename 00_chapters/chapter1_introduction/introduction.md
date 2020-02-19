@@ -17,9 +17,12 @@ You can cite the figure in the text (to match the automatic figure numbering). S
 ## Citation in fiugure caption
 This is how you insert figures using markdown. Also how to insert citations copied over from your bibliography manager (I specifically used Pandoc Citations in Papers).
 
-![Interphase and the different stages of mitosis. Figure from Walczak et al., 2010[@Walczak:2010uk]. \label{mitosis} ](03_figures/introduction/mitosis_Walczak.pdf)
+![Interphase and the different stages of mitosis. Figure from [@Walczak:2010uk]. \label{mitosis} ](03_figures/introduction/mitosis_Walczak.pdf)
  
 See Figure \ref{mitosis} for a schematic illustration.
 
 You need to insert empty lines at the end of each section.....  
 
+## Other great books
+
+There are some great books out here, e.g. see [@hitch_hikers_guide].

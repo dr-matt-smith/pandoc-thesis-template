@@ -15,7 +15,7 @@
         \large{\textsc{
         B.Sc. in Science in Computing
         }}\\
-        Institute of Technology Blanchardstown
+        TU Dublin
         \\
         Dublin, Ireland
         
@@ -23,7 +23,12 @@
          
         by\\
         \textbf{
-        Matt Smith
+        Mark Murphy
+        }
+        
+        supervisor\\
+        \textbf{
+        Dr. Matt Smith
         }
 
        
@@ -32,7 +37,7 @@
         
         \vfill
   
-            2017
+            2020
 
      \end{center}
     \thispagestyle{empty}

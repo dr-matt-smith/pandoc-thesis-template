@@ -1,7 +1,7 @@
 [
   {
-    "id": "unity_cookbook",
-    "title": "Unity 5.x Coobook",
+    "id": "smith2018",
+    "title": "Unity 2018 Coobook",
     "type": "book",
     "publisher": "Packt",
     "publisher-place": "UK",
@@ -9,45 +9,17 @@
       {
         "family": "Smith",
         "given": "Matt"
-      },
-      {
-        "family": "Queiroz",
-        "given": "Chico"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2015
+          2018
         ]
       ]
     }
   },
 
-  {
-    "id": "unity_cookbook",
-    "title": "Unity 5.x Coobook",
-    "type": "book",
-    "publisher": "Packt",
-    "publisher-place": "UK",
-    "author": [
-      {
-        "family": "Smith",
-        "given": "Matt"
-      },
-      {
-        "family": "Queiroz",
-        "given": "Chico"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2015
-        ]
-      ]
-    }
-  },
 
   {
     "id": "hitch_hikers_guide",
