@@ -11,6 +11,10 @@ You need Pandoc and LaTeX installed.
 
 - NOTE (Feb 2017): A couple of my students with Windows 10 had issues installing the latest version of Pandoc. But it all works fine with version 1.91.1. So if you had an issue, then try installing that version from the ['releases' download page](https://github.com/jgm/pandoc/releases)
 
+- if you need "unicodemath.sty" - find it here:
+
+    -[https://github.com/dmarconi/Thesis/blob/master/unicode-math.sty](https://github.com/dmarconi/Thesis/blob/master/unicode-math.sty)
+
 
 I also recommend installing Composer, to save pasting that long command at the command line (or make or whatever you prefer ...)
 
