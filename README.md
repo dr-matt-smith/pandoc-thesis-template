@@ -106,6 +106,27 @@ would output something like this (if citations mode is Harvard):
 
         Smith (2017) writes about how wonderful Pandoc is.
 
+## Figures
+
+Copy the figure image into folder `03_figures`. E.g. copy the `octocat.png` Github image there.
+
+Use the exclamation mark, followed by caption text (in square brackets), and then path to image file (in parentheses round brackets), e.g.:
+
+```
+    ![Github's famous 'Octocat'!](03_figures/octocat.png)
+```
+
+## Citing numbered figures
+
+You can cite the figure number in the text (to match the automatic figure numbering) by adding a `\label{<label>}` in the figure line, and using `\ref{<label>}` in your text to get the figure number, e.g.:
+
+```
+    See Figiure \ref{octocat} to see the famous Github Octocat logo.
+
+    ![Github's famous 'Octocat'! \label{octocat}](03_figures/octocat.png)
+```
+
+
 
 ## Further reference
 
