@@ -106,6 +106,40 @@ would output something like this (if citations mode is Harvard):
 
         Smith (2017) writes about how wonderful Pandoc is.
 
+## URLs for online sources
+
+For JSON references, if you want a URL and accessed date to be included in your list of references entry then:
+
+- add a "URL" and "accessed" 
+
+    - note that `URL` has to be in upper case for it to be recoginsied - no idea why? all the other fields are lower case ...
+    
+    - e.g.
+    
+        ```json
+        "URL": "https://www.packtpub.com/eu/game-development/unity-2018-cookbook-third-edition",
+        "accessed": {
+          "date-parts": [[ 2020, 5, 29 ]]
+        }
+        ```
+
+For BibTeX references then
+
+- add a "url" and "accessed" field
+
+    - e.g.
+    
+        ```
+        @book{smith2018,
+            author = {Smith, Matt},
+            title = {Unity 2018 Cookbook},
+            publisher = {Packt},
+            year = {2018},
+            url = {https://www.packtpub.com/eu/game-development/unity-2018-cookbook-third-edition},
+            accessed = {2020}
+        }
+        ```
+
 ## Figures
 
 Copy the figure image into folder `03_figures`. E.g. copy the `octocat.png` Github image there.
@@ -133,11 +167,11 @@ Find some more Pandoc templates here:
 
 - https://github.com/jgm/pandoc/wiki/User-contributed-templates
 
-## Using Bibtex rather than CSL for reference database
+## Using BibTeX rather than CSL for reference database
 
 If you prefer, or have an existing Bibtex set of references, you can easily switch from CSL to Bibtex in the `composer.json` scripts
 
-- copy your `references.bib` into the `05_references` directory
+- add your reference entries to the  `references.bib` in the `05_references` directory
 
 - in `composer.json` in this line `--bibliography=05_references/references.json` change the prefix from `.json` to `.bib`
 
