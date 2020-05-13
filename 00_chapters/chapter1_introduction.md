@@ -26,3 +26,5 @@ You need to insert empty lines at the end of each section.....
 ## Other great books
 
 There are some great books out here, e.g. see [@hitch_hikers_guide].
+
+If you want to learn about Unity game programming try a cookbook [@smith2018].

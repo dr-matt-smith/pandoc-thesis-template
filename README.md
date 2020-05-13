@@ -53,7 +53,7 @@ To cite a reference item write the 'id' of the reference item in square brackets
 
     Lots of people have written about how wonderful Pandoc is, for example see [@smith2017].
 
-where in the above `smith2017` is the unique 'id' of the reference item. This would output something like this (if citations mode is Harvard):
+where in the above `smith2017` is the unique 'id' of the reference item. This would output something like this (if citations mode is Harvard-Limerick):
 
     Lots of people have written about how wonderful Pandoc is, for example see (Smith 2017).
 
@@ -70,7 +70,7 @@ In a LaTeX BibText reference collection this 'id' comes immediately after the op
         pages = {1--19}
         }
 
-In a JSON reference collection the 'id' is explicilty named as an 'id' property. In this example the id is `unity_5x_cookbook`:
+In a JSON reference collection the 'id' is explicitly named as an 'id' property. In this example the id is `unity_5x_cookbook`:
 
           {
             "id": "unity_5x_cookbook",
@@ -100,7 +100,7 @@ In a JSON reference collection the 'id' is explicilty named as an 'id' property.
 
 To cite a reference item without the authors' names, but just have the year/alpha bit, prefix the citation with a minus sign, e.g.:
 
-        Smith -[@smith2017] writes about how wonderful Pandoc is.
+        Smith [-@smith2017] writes about how wonderful Pandoc is.
 
 would output something like this (if citations mode is Harvard):
 
@@ -127,16 +127,25 @@ You can cite the figure number in the text (to match the automatic figure number
 ```
 
 
-
 ## Further reference
 
 Find some more Pandoc templates here:
 
 - https://github.com/jgm/pandoc/wiki/User-contributed-templates
 
+## Using Bibtex rather than CSL for reference database
+
+If you prefer, or have an existing Bibtex set of references, you can easily switch from CSL to Bibtex in the `composer.json` scripts
+
+- copy your `references.bib` into the `05_references` directory
+
+- in `composer.json` in this line `--bibliography=05_references/references.json` change the prefix from `.json` to `.bib`
+
+For more about CSL and BibTeX see [README REFS](README_REFS.md)
+
 ## Acknowledgements
 
-This thesis template is based on the one publihsed by Chia Kaivalya
+This thesis template is based on the one published by Chia Kaivalya
 https://chiakaivalya.wordpress.com/2014/04/23/using-markdown-pandoc-to-write-my-biology-phd-thesis/
 
 Thanks Chia!
