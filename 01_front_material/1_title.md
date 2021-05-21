@@ -1,3 +1,5 @@
+
+\begin{titlepage}
 \newcommand\titleLineOne{A musical tool written in PHP}
 \newcommand\titleLineTwo{(that sometimes works)}
 \newcommand\thesisAuthor{Rose Murphy}
@@ -7,7 +9,6 @@
 \newcommand\institution{TU Dublin}
 \newcommand\address{Dublin, Ireland}
 
-\begin{titlepage}
     \begin{center}
     
         \vspace*{1cm}
@@ -55,10 +56,6 @@
         
         }
 
-       
-
-        
-        
         \vfill
   
             \thesisYear
