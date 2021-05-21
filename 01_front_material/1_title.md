@@ -1,50 +1,38 @@
 \begin{titlepage}
     \begin{center}
+   
         \vspace*{1cm}
-       \large{ \textbf{ \uppercase{
+        
 
-            Title line 1
-            \\
-            (title line 2)
-
-        }}}
+       \large{ \textbf{ \uppercase{A computer musical tool\\(that sometimes actually works!)}}}
+        
         \vspace{0.5cm}
+        
         \vspace{1.5cm}
  
-            Submitted in part fulfilment for the degree of
-
+        Submitted in part fulfilment for the degree of
         \\
         \large{\textsc{
-
-            B.Sc. (Hons) in Science in Computing
-
-            }}\\
-
-            TU Dublin
+        B.Sc. in Science in Computing
+        }}\\
+        TU Dublin
         \\
-
-           Dublin, Ireland
+        Dublin, Ireland
         
         \vspace{0.8cm}        
          
         by\\
-
         \textbf{
-
-            Author Name Here
-       }
+        Mark Murphy
+        }
         
         supervisor\\
         \textbf{
-        
-            Dr. Matt Smith
-    
+
+        Dr. Matt Smith
+
         }
 
-       
-
-        
-        
         \vfill
   
             2020
