@@ -7,7 +7,8 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     env:
-      FILELIST:  01_front_material/1_title.md
+      FILELIST:
+        01_front_material/1_title.md
         01_front_material/2_declaration.md
         01_front_material/3_abstract.md
         01_front_material/4_acknowledgements.md
@@ -17,6 +18,7 @@ jobs:
         04_appendices/0_appendices.md
         04_appendices/A_software_tools.md
         04_appendices/B_questionnaire.md
+        04_appendices/C_webapplication.md
     steps:
       - uses: actions/checkout@v2
       - run: |
