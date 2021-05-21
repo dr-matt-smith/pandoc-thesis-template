@@ -1,4 +1,4 @@
-\setvalue{author}{Rose Murphy}
+\def\newauthor{Rose Murphy}
 
 \begin{titlepage}
     \begin{center}
@@ -29,7 +29,7 @@
          
         by\\
         \textbf{
-        \getvalue{author}
+        \newauthor
         }
         
         supervisor\\
