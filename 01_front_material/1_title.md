@@ -1,3 +1,4 @@
+\newcommand\newtitle{A musical tool written in PHP}
 \newcommand\newauthor{Rose Murphy}
 
 \begin{titlepage}
