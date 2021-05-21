@@ -1,5 +1,9 @@
-\newcommand\newtitle{A musical tool written in PHP}
-\newcommand\newauthor{Rose Murphy}
+\newcommand\title{A musical tool written in PHP}
+\newcommand\titleLineTwo{(that sometimes works)}
+\newcommand\author{Rose Murphy}
+\newcommand\author{Dr. Matt Smith}
+\newcommand\degree{B.Sc. in Science in Computing}
+\newcommand\year{2020}
 
 \begin{titlepage}
     \begin{center}
@@ -8,9 +12,13 @@
         
 
        \large{ \textbf{ \uppercase{
-       \newtitle1
+
+       \title
+
        \\
-       (that sometimes actually works!)
+
+       \titleLineTwo
+
        }}}
         
         \vspace{0.5cm}
@@ -20,7 +28,9 @@
         Submitted in part fulfilment for the degree of
         \\
         \large{\textsc{
-        B.Sc. in Science in Computing
+        
+        \degree
+        
         }}\\
         TU Dublin
         \\
@@ -30,12 +40,14 @@
          
         by\\
         \textbf{
-        \newauthor
+        \author
         }
         
         supervisor\\
         \textbf{
-        Dr. Matt Smith
+
+        \supervisor
+        
         }
 
        
@@ -44,7 +56,7 @@
         
         \vfill
   
-            2020
+            \year
 
      \end{center}
     \thispagestyle{empty}
