@@ -1,5 +1,15 @@
+\def \titleLineOne {Something that's better to use as a variable}
+\def \titleLineTwo {(that sometimes actually works!)}
+% \def \degree {B.Sc. in Science in Computing}
+% \def \author {Mark Murphy}
+% \def \supervisor {Dr. Matt Smith}
+% \def \institution {TU Dublin}
+% \def \author {Dublin, Ireland}
+% \def \year {2020}
 
-AUTHOR = Dr. Matt Smith
+% \newcommand\titleLineOne{Something that's better to use as a variable}
+% \newcommand\titleLineTwo{(that sometimes actually works!)}
+ 
  
 
 \begin{titlepage}
@@ -33,7 +43,7 @@ AUTHOR = Dr. Matt Smith
         supervisor\\
         \textbf{
 
-        AUTHOR
+        Dr. Matt Smith
 
         }
 
