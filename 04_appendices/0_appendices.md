@@ -1,5 +1,5 @@
 
 \appendix
-\chapter{Appendices}
+\chapter*{Appendices}
 
 
