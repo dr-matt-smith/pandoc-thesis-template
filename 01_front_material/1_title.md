@@ -1,9 +1,11 @@
 \newcommand\title{A musical tool written in PHP}
 \newcommand\titleLineTwo{(that sometimes works)}
-\newcommand\author{Rose Murphy}
+\newcommand\thesisAuthor{Rose Murphy}
 \newcommand\author{Dr. Matt Smith}
 \newcommand\degree{B.Sc. in Science in Computing}
 \newcommand\year{2020}
+\newcommand\institution{TU Dublin}
+\newcommand\address{Dublin, Ireland}
 
 \begin{titlepage}
     \begin{center}
@@ -32,15 +34,18 @@
         \degree
         
         }}\\
-        TU Dublin
+        
+        \institution
         \\
-        Dublin, Ireland
+        \address
         
         \vspace{0.8cm}        
          
         by\\
         \textbf{
-        \author
+        
+        \thesisAuthor
+        
         }
         
         supervisor\\
