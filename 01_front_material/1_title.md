@@ -1,14 +1,10 @@
-
-AUTHOR = Dr. Matt Smith
- 
-
 \begin{titlepage}
     \begin{center}
-   
+    
         \vspace*{1cm}
         
 
-       \large{ \textbf{ \uppercase{\titleLineOne\ \\ \titleLineTwo\}}}
+       \large{ \textbf{ \uppercase{A computer musical tool\\(that sometimes actually works!)}}}
         
         \vspace{0.5cm}
         
@@ -32,11 +28,13 @@ AUTHOR = Dr. Matt Smith
         
         supervisor\\
         \textbf{
-
-        AUTHOR
-
+        Dr. Matt Smith
         }
 
+       
+
+        
+        
         \vfill
   
             2020
