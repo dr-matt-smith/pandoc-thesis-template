@@ -1,11 +1,11 @@
-\def \titleLine1 {Something that's better to use as a variable}
-\def \titleLine2 {(that sometimes actually works!)}
-\def \degree {B.Sc. in Science in Computing}
-\def \author {Mark Murphy}
-\def \supervisor {Dr. Matt Smith}
-\def \institution {TU Dublin}
-\def \author {Dublin, Ireland}
-\def \year {2020}
+% \def \titleLine1 {Something that's better to use as a variable}
+% \def \titleLine2 {(that sometimes actually works!)}
+% \def \degree {B.Sc. in Science in Computing}
+% \def \author {Mark Murphy}
+% \def \supervisor {Dr. Matt Smith}
+% \def \institution {TU Dublin}
+% \def \author {Dublin, Ireland}
+% \def \year {2020}
 
 \newcommand\titleLine1{Something that's better to use as a variable}
 \newcommand\titleLine2{(that sometimes actually works!)}
