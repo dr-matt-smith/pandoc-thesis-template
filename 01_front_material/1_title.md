@@ -1,4 +1,4 @@
-\def\newauthor{Rose Murphy}
+\newcommand\newauthor{Rose Murphy}
 
 \begin{titlepage}
     \begin{center}
