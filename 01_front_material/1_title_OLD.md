@@ -1,24 +1,27 @@
-\def \titleLineOne {Something that's better to use as a variable}
-\def \titleLineTwo {(that sometimes actually works!)}
-% \def \degree {B.Sc. in Science in Computing}
-% \def \author {Mark Murphy}
-% \def \supervisor {Dr. Matt Smith}
-% \def \institution {TU Dublin}
-% \def \author {Dublin, Ireland}
-% \def \year {2020}
-
-% \newcommand\titleLineOne{Something that's better to use as a variable}
-% \newcommand\titleLineTwo{(that sometimes actually works!)}
- 
- 
-
 \begin{titlepage}
+\newcommand\titleLineOne{A musical tool written in PHP}
+\newcommand\titleLineTwo{(that sometimes works)}
+\newcommand\thesisAuthor{Rose Murphy}
+\newcommand\supervisor{Dr. Matt Smith}
+\newcommand\degree{B.Sc. in Science in Computing}
+\newcommand\thesisYear{2020}
+\newcommand\institution{TU Dublin}
+\newcommand\address{Dublin, Ireland}
+
     \begin{center}
-   
+    
         \vspace*{1cm}
         
 
-       \large{ \textbf{ \uppercase{\titleLineOne\ \\ \titleLineTwo\}}}
+       \large{ \textbf{ \uppercase{
+
+       \titleLineOne
+
+       \\
+
+       \titleLineTwo
+
+       }}}
         
         \vspace{0.5cm}
         
@@ -27,29 +30,34 @@
         Submitted in part fulfilment for the degree of
         \\
         \large{\textsc{
-        B.Sc. in Science in Computing
+        
+        \degree
+        
         }}\\
-        TU Dublin
+        
+        \institution
         \\
-        Dublin, Ireland
+        \address
         
         \vspace{0.8cm}        
          
         by\\
         \textbf{
-        Mark Murphy
+        
+        \thesisAuthor
+        
         }
         
         supervisor\\
         \textbf{
 
-        Dr. Matt Smith
-
+        \supervisor
+        
         }
 
         \vfill
   
-            2020
+            \thesisYear
 
      \end{center}
     \thispagestyle{empty}
@@ -58,3 +66,4 @@
 \newpage
 \thispagestyle{empty}
 \mbox{}
+
