@@ -14,7 +14,7 @@ jobs:
           mkdir output  # create output dir
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/thesis.pdf ${{ env.FILELIST }} -H 91_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=05_references/references.bib --csl=harvard-limerick.csl
+          args: --output=output/thesis.pdf  -H 91_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --csl=harvard-limerick.csl ${{ env.FILELIST }} --bibliography=05_references/references.bib
       - uses: actions/upload-artifact@master
         with:
           name: output
