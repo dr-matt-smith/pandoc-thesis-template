@@ -1,10 +1,16 @@
+\setvalue{author}{Rose Murphy}
+
 \begin{titlepage}
     \begin{center}
     
         \vspace*{1cm}
         
 
-       \large{ \textbf{ \uppercase{A computer musical tool\\(that sometimes actually works!)}}}
+       \large{ \textbf{ \uppercase{
+       \newtitle1
+       \\
+       (that sometimes actually works!)
+       }}}
         
         \vspace{0.5cm}
         
@@ -23,7 +29,7 @@
          
         by\\
         \textbf{
-        Mark Murphy
+        \getvalue{author}
         }
         
         supervisor\\
