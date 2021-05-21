@@ -1,11 +1,20 @@
+\newcommand\titleLineOne{A musical tool written in PHP}
+\newcommand\titleLineTwo{(that sometimes works)}
+\newcommand\thesisAuthor{Rose Murphy}
 \newcommand\supervisor{Dr. Matt Smith}
+\newcommand\degree{B.Sc. in Science in Computing}
+\newcommand\thesisYear{2020}
+\newcommand\institution{TU Dublin}
+\newcommand\address{Dublin, Ireland}
 \begin{titlepage}
     \begin{center}
     
         \vspace*{1cm}
         
 
-       \large{ \textbf{ \uppercase{A computer musical tool\\(that sometimes actually works!)}}}
+       \large{ \textbf{ \uppercase{\titleLineOne 
+       \\
+        \titleLineTwo}}}
         
         \vspace{0.5cm}
         
@@ -14,17 +23,17 @@
         Submitted in part fulfilment for the degree of
         \\
         \large{\textsc{
-        B.Sc. in Science in Computing
+        \degree
         }}\\
-        TU Dublin
+        \institution
         \\
-        Dublin, Ireland
+        \address
         
         \vspace{0.8cm}        
          
         by\\
         \textbf{
-        Mark Murphy
+        \thesisAuthor
         }
         
         supervisor\\
@@ -34,7 +43,7 @@
         
         \vfill
   
-            2020
+            \thesisYear
 
      \end{center}
     \thispagestyle{empty}

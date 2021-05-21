@@ -1,4 +1,3 @@
-\frontmatter 
 \chapter{Abstract}
 
 GUIDE TO STUDENTS: An abstract is a brief overview of the project. Ideally it should fit onto a single page.
