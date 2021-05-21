@@ -19,6 +19,7 @@ jobs:
         04_appendices/A_software_tools.md
         04_appendices/B_questionnaire.md
         04_appendices/C_webapplication.md
+        05_references/references.md
     steps:
       - uses: actions/checkout@v2
       - run: |
