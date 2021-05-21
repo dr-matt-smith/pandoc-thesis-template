@@ -1,4 +1,3 @@
-
 \begin{titlepage}
 \newcommand\titleLineOne{A musical tool written in PHP}
 \newcommand\titleLineTwo{(that sometimes works)}
