@@ -3,7 +3,7 @@
 \newcommand\thesisAuthor{Rose Murphy}
 \newcommand\supervisor{Dr. Matt Smith}
 \newcommand\degree{B.Sc. in Science in Computing}
-\newcommand\year{2020}
+\newcommand\thesisYear{2020}
 \newcommand\institution{TU Dublin}
 \newcommand\address{Dublin, Ireland}
 
@@ -61,7 +61,7 @@
         
         \vfill
   
-            \year
+            \thesisYear
 
      \end{center}
     \thispagestyle{empty}
