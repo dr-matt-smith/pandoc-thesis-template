@@ -1,4 +1,4 @@
-\newcommand\title{A musical tool written in PHP}
+\newcommand\titleLineOne{A musical tool written in PHP}
 \newcommand\titleLineTwo{(that sometimes works)}
 \newcommand\thesisAuthor{Rose Murphy}
 \newcommand\author{Dr. Matt Smith}
@@ -15,7 +15,7 @@
 
        \large{ \textbf{ \uppercase{
 
-       \title
+       \titleLineOne
 
        \\
 
