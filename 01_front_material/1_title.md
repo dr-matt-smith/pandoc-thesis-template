@@ -1,5 +1,5 @@
-% \def \titleLine1 {Something that's better to use as a variable}
-% \def \titleLine2 {(that sometimes actually works!)}
+% \def \titleLineOne {Something that's better to use as a variable}
+% \def \titleLineTwo {(that sometimes actually works!)}
 % \def \degree {B.Sc. in Science in Computing}
 % \def \author {Mark Murphy}
 % \def \supervisor {Dr. Matt Smith}
@@ -7,8 +7,8 @@
 % \def \author {Dublin, Ireland}
 % \def \year {2020}
 
-\newcommand\titleLine1{Something that's better to use as a variable}
-\newcommand\titleLine2{(that sometimes actually works!)}
+\newcommand\titleLineOne{Something that's better to use as a variable}
+\newcommand\titleLineTwo{(that sometimes actually works!)}
  
  
 
@@ -18,7 +18,7 @@
         \vspace*{1cm}
         
 
-       \large{ \textbf{ \uppercase{\titleLine1\ \\ \titleLine2\}}}
+       \large{ \textbf{ \uppercase{\titleLineOne\ \\ \titleLineTwo\}}}
         
         \vspace{0.5cm}
         
