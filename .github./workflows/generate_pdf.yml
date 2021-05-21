@@ -1,0 +1,25 @@
+
+name: Build thesis PDF
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    env:
+      FILELIST:  01_front_material/1_title.md 01_front_material/2_declaration.md 01_front_material/3_abstract.md 01_front_material/4_acknowledgements.md 92_toc/toc.md 00_chapters/chapter1_introduction.md 00_chapters/chapter2_extra_results.md 00_chapters/chapter3_generaldiscussion.md 04_appendices/0_appendices.md  04_appendices/A_software_tools.md  04_appendices/B_questionnaire.md
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          echo "Lorem ipsum" > lorem_1.md  # create two example files
+          echo "dolor sit amet" > lorem_2.md
+          mkdir output  # create output dir
+          # this will also include README.md
+          # echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: --output=output/thesis.pdf ${{ env.FILELIST }} pandoc --pdf-engine=xelatex -H 91_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=05_references/references.bib --csl=harvard-limerick.csl 
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
