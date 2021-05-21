@@ -18,7 +18,7 @@ jobs:
           # echo "::set-env name=FILELIST::$(printf '"%s" ' *.md)"
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/thesis.pdf ${{ env.FILELIST }} pandoc --pdf-engine=xelatex -H 91_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=05_references/references.bib --csl=harvard-limerick.csl 
+          args: --output=output/thesis.pdf ${{ env.FILELIST }} -H 91_preable/preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=05_references/references.bib --csl=harvard-limerick.csl
       - uses: actions/upload-artifact@master
         with:
           name: output
