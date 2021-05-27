@@ -2,7 +2,7 @@
 \newcommand\titleLineTwo{(that sometimes works)}
 \newcommand\thesisAuthor{Rose Murphy}
 \newcommand\supervisor{Dr. Matt Smith}
-\newcommand\degree{B.Sc. in Science in Computing}
+\newcommand\degree{B.Sc. (Hons) in Science in Computing}
 \newcommand\thesisYear{2020}
 \newcommand\institution{TU Dublin}
 \newcommand\address{Dublin, Ireland}

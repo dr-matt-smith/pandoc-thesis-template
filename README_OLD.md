@@ -1,42 +1,46 @@
 pandoc-thesis-template
 ======================
 
-A template for creating a degree project thesis in markdown + pandoc
+this is the OLD readme - if you want to install Pandoc and LaTex on your local machine, rather than use Github action s...
 
-## BREAKING NEWS - it's all automatic via Github Actions
 
-you now do not need to install ANY software locally - once you've created a FORK of this project, and commit new changes, then a Github Action will run to create a new thesis PDF for you
+## Installing
 
-follow these steps:
+You need Pandoc and LaTeX installed.
 
-1. Create a FORK of this repository project
-[https://github.com/dr-matt-smith/pandoc-thesis-template](https://github.com/dr-matt-smith/pandoc-thesis-template)
+- [Pandoc installation](http://pandoc.org/installing.html)
 
-1. Git clone your forked repository to your local machine
+- NOTE (Feb 2017): A couple of my students with Windows 10 had issues installing the latest version of Pandoc. But it all works fine with version 1.91.1. So if you had an issue, then try installing that version from the ['releases' download page](https://github.com/jgm/pandoc/releases)
 
-1.  Edit some bits
+- if you need "unicodemath.sty" - find it here:
 
-    - E.g. title parameters in: `01_front_material/1_title.md`
-    - Change the text in chapter 1: `00_chapters/chapter1_introduction.md`
-    - NOTE: markdown is great – just write text / #heading1 / ##heading2 / - for bullet list / 1 for numbered list and so on ..
-        - here are more details about [GitHub Markddown](https://guides.github.com/features/mastering-markdown/)
- 
- 
-1.  Add / commit / push
+    -[https://github.com/dmarconi/Thesis/blob/master/unicode-math.sty](https://github.com/dmarconi/Thesis/blob/master/unicode-math.sty)
 
-1. back on the Github repostitory settings, select `Actions` and click the `Build thesis PDF` action
 
-![clik](figures/github_actions.png)
- 
-1. Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
+I also recommend installing Composer, to save pasting that long command at the command line (or make or whatever you prefer ...)
 
-![](figures/actions_output.png)
- 
-Github actions runs a Linux machine and runs paddownad Latex and builds the PDF from the files !
+- [Composer installation](https://getcomposer.org/download/)
 
-## work on your local machine
+## Running
+If you have Composer installed just type:
 
-if you still wish to work on your local machine (why???!!) then here are details in the [old README](README_OLD.md)
+    $ composer pdf
+
+If you prefer JSON format for your list of reference items, the type:
+
+    $ composer json
+
+The only difference between these two Composer scripts (look inside `composer.json`) is the bit about references:
+
+    --bibliography=05_references/references.bib
+
+If not you need to enter the following at the command line:
+
+    pandoc --latex-engine=xelatex -H preamble.tex -V fontsize=10pt -V documentclass:book -V papersize:a4paper -V classoption:openright --number-sections --bibliography=99_references/references.bib --csl='csl/nature.csl' 00_front_material/1_title.md 00_front_material/2_declaration.md 00_front_material/3_abstract.md 00_front_material/4_acknowledgements.md 05_toc/toc.md 10_chapters/chapter1_introduction/introduction.md 10_chapters/chapter1_introduction/introduction_section2.md 10_chapters/chapter3_extra_results.md 10_chapters/chapter4_generaldiscussion.md 88_appendices/a_meetings/meetings.md 99_references/references.md -o _THESIS.pdf
+
+Of course if you know `make` or can write a Windows `.bat. file, you can put this long command into one of those files too.
+
+If you add a chapter or appendix, then add its name (in the appropriate place in the sequence, e.g. chapter 4 after chapter 3) in the command. That's it!
 
 ## References
 
