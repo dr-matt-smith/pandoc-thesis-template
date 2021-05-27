@@ -67,32 +67,6 @@ In a LaTeX BibText reference collection this 'id' comes immediately after the op
         pages = {1--19}
         }
 
-In a JSON reference collection the 'id' is explicitly named as an 'id' property. In this example the id is `unity_5x_cookbook`:
-
-          {
-            "id": "unity_5x_cookbook",
-            "title": "Unity 5.x Coobook",
-            "type": "book",
-            "publisher": "Packt",
-            "publisher-place": "UK",
-            "author": [
-              {
-                "family": "Smith",
-                "given": "Matt"
-              },
-              {
-                "family": "Queiroz",
-                "given": "Chico"
-              }
-            ],
-            "issued": {
-              "date-parts": [
-                [
-                  2015
-                ]
-              ]
-            }
-          },
 
 
 To cite a reference item without the authors' names, but just have the year/alpha bit, prefix the citation with a minus sign, e.g.:
