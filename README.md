@@ -24,10 +24,14 @@ follow these steps:
  
 1.  Add / commit / push
 
-1. back on the Github repostitory settings, select `Actions` and click the `Build thesis PDF` action
+1. back on the Github repository settings, select `Actions` and click the `Build thesis PDF` action
 
 ![clik](figures/github_actions.png)
  
+1. It will take something like 25-60 seconds (depending on number of pages / complexity of document - but remmeber, this is a free Linux virtual machine from Github :-):
+
+![clik](figures/seconds.png)
+
 1. Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
 
 ![](figures/actions_output.png)
