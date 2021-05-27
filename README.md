@@ -32,7 +32,7 @@ follow these steps:
 
 ![](figures/actions_output.png)
  
-Github actions runs a Linux machine and runs paddownad Latex and builds the PDF from the files !
+Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
 
 ## work on your local machine
 
@@ -105,20 +105,6 @@ would output something like this (if citations mode is Harvard):
 
 ## URLs for online sources
 
-For JSON references, if you want a URL and accessed date to be included in your list of references entry then:
-
-- add a "URL" and "accessed" 
-
-    - note that `URL` has to be in upper case for it to be recoginsied - no idea why? all the other fields are lower case ...
-    
-    - e.g.
-    
-        ```json
-        "URL": "https://www.packtpub.com/eu/game-development/unity-2018-cookbook-third-edition",
-        "accessed": {
-          "date-parts": [[ 2020, 5, 29 ]]
-        }
-        ```
 
 For BibTeX references then
 
@@ -164,13 +150,7 @@ Find some more Pandoc templates here:
 
 - https://github.com/jgm/pandoc/wiki/User-contributed-templates
 
-## Using BibTeX rather than CSL for reference database
-
-If you prefer, or have an existing Bibtex set of references, you can easily switch from CSL to Bibtex in the `composer.json` scripts
-
-- add your reference entries to the  `references.bib` in the `05_references` directory
-
-- in `composer.json` in this line `--bibliography=05_references/references.json` change the prefix from `.json` to `.bib`
+## Using BibTeX  for reference database
 
 For more about CSL and BibTeX see [README REFS](README_REFS.md)
 
