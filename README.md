@@ -46,7 +46,7 @@ Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [
 
 ## Add / remove chapters from your thesis
 
-Add / remove chapters/appendices from the `.github/workflows` folder. But you must also update file `generate_pdf.yml` to match the sequence of chapters/appendices you want.
+Add / remove chapters/appendices from the `00_chapters` and `04_appendices` folders. But you must also update file `.github/workflows/generate_pdf.yml` to match the sequence of chapters/appendices you want.
 
 ![update actions YAML when add-remove chapters and appendices](figures/add_remove_chapters.png)
 
