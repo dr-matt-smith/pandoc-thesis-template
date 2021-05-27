@@ -26,17 +26,23 @@ follow these steps:
 
 1. back on the Github repository settings, select `Actions` and click the `Build thesis PDF` action
 
-![clik](figures/github_actions.png)
+![the FIRST time you must click to run the Github actions workflow to Build Thesis PDF](figures/github_actions.png)
  
 1. It will take something like 25-60 seconds (depending on number of pages / complexity of document - but remmeber, this is a free Linux virtual machine from Github :-):
 
-![clik](figures/seconds.png)
+![20-60 seconds to generate PDF](figures/seconds.png)
 
 1. Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
 
-![](figures/actions_output.png)
+![click to download generated PDF](figures/actions_output.png)
  
 Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
+
+## add / remove chapters from your thesis
+
+Add / remove chapters/appendices from the XX folder. But you must also update file `` to match the sequence of chapters/appendices you want.
+
+![update actions YAML when add-remove chapters and appendices](figures/add_remove_chapters.png)
 
 ## work on your local machine
 
