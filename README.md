@@ -3,6 +3,12 @@ pandoc-thesis-template
 
 A template for creating a degree project thesis in markdown + pandoc
 
+## Example of what you can generated EASILY
+
+Here is the type of PDF thesis document you can easily generate using this repository template:
+
+![example thesis pages](figures/thesis.png)
+
 ## BREAKING NEWS - it's all automatic via Github Actions
 
 you now do not need to install ANY software locally - once you've created a FORK of this project, and commit new changes, then a Github Action will run to create a new thesis PDF for you
