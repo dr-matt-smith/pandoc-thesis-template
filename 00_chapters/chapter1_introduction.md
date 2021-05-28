@@ -49,3 +49,12 @@ See Figure \ref{md_tables} for how to create tables using MarkDown and a little 
 
 ![MarkDown source code for tables. \label{md_tables}](03_figures/introduction/tables_markdown.png)
 
+## Free Online TableConvert.com
+
+If you don't want to edit tables manually in MarkDown, a great free online tool that will do this for you is TableConvert. See Figure \ref{table_convert}.
+
+- [https://tableconvert.com/?import=example](https://tableconvert.com/?import=example)
+
+![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png)
+
+
