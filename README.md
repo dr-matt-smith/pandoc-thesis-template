@@ -9,46 +9,52 @@ Here is the type of PDF thesis document you can easily generate using this repos
 
 ![example thesis pages](figures/thesis.png)
 
-## BREAKING NEWS - it's all automatic via Github Actions
+## It's all automatic via Github Actions
+
 
 you now do not need to install ANY software locally - once you've created a FORK of this project, and commit new changes, then a Github Action will run to create a new thesis PDF for you
 
+- Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
+
 follow these steps:
 
-1. Create a FORK of this repository project
+1. (Github) Create a FORK of this repository project
 [https://github.com/dr-matt-smith/pandoc-thesis-template](https://github.com/dr-matt-smith/pandoc-thesis-template)
 
-1. Git clone your forked repository to your local machine
 
-1.  Edit some bits
+1. (Github) in the repository settings, select `Actions` 
+
+1. (Github | Actions) click the Green button to enable workflows
+
+![green button enable workflows](figures/enable_workflows.png)
+
+1. **OPTIONAL** if you want to work on your local computer **clone** the repo to your machine
+
+1. Create/Edit some bits
     - E.g. title parameters in: `01_front_material/1_title.md`
     - Change the text in chapter 1: `00_chapters/chapter1_introduction.md`
     - NOTE: markdown is great – just write text / #heading1 / ##heading2 / - for bullet list / 1 for numbered list and so on ..
     - here are more details about [GitHub Markddown](https://guides.github.com/features/mastering-markdown/)
  
- 
+1. (IF LOCAL CLONE EDITING) add/commit/push the changes
 
+1. (IF Gihub website EDITING) each change is automatically a new commit :-)
 
-1. back on the Github repository settings, select `Actions` 
-
-1. click the Green button to enable workflows
-
-![green button enable workflows](figures/enable_workflows.png)
-
-
-1.  click the `Build thesis PDF` action
+1. (Github | Actions)  click the `Build thesis PDF` action
 
 ![the FIRST time you must click to run the Github actions workflow to Build Thesis PDF](figures/github_actions.png)
  
-1. It will take something like 25-60 seconds (depending on number of pages / complexity of document - but remmeber, this is a free Linux virtual machine from Github :-):
+1. (Github | Actions) It will take something like 25-60 seconds (depending on number of pages / complexity of document - but remmeber, this is a free Linux virtual machine from Github :-):
 
 ![20-60 seconds to generate PDF](figures/seconds.png)
 
-1. Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
+1. (Github | Actions) Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
 
 ![click to download generated PDF](figures/actions_output.png)
 
-Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
+Having done the above once, your PDF to be created automatically in the future every time there is a new **COMMIT** pushed to the Github repo
+
+- so just CRUD chapters/figures etc. and commit to Github and in a minute or so you can see your updated thesis ...
 
 ## Add / remove chapters from your thesis
 
@@ -64,7 +70,9 @@ if you still wish to work on your local machine (why???!!) then here are details
 
 Add to the collection of references in `/99_references/references.bib`
 
-Only items that are cited will be added to the list of refernces in the generated PDF.
+Only items that are cited will be added to the list of references in the generated PDF.
+
+For more about CSL and BibTeX see [README REFS](README_REFS.md)
 
 ## Citations
 
@@ -146,9 +154,7 @@ Find some more Pandoc templates here:
 
 - https://github.com/jgm/pandoc/wiki/User-contributed-templates
 
-## Using BibTeX  for reference database
 
-For more about CSL and BibTeX see [README REFS](README_REFS.md)
 
 ## Acknowledgements
 
