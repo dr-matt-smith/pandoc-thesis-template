@@ -1,5 +1,3 @@
-\mainmatter
-
 # Introduction
 
 ## Simple figure
