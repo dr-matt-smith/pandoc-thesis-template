@@ -55,6 +55,6 @@ If you don't want to edit tables manually in MarkDown, a great free online tool 
 
 - [https://tableconvert.com/?import=example](https://tableconvert.com/?import=example)
 
-![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png)
+![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png){ width=75% }
 
 
