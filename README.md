@@ -16,6 +16,10 @@ you now do not need to install ANY software locally - once you've created a FORK
 
 - Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
 
+This repo uses the LaTeX Pandoc Docker image for Github actions from here:
+
+- [https://github.com/pandoc/dockerfiles](https://github.com/pandoc/dockerfiles)
+
 follow these steps:
 
 1. (Github) Create a FORK of this repository project
