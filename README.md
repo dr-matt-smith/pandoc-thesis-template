@@ -29,26 +29,26 @@ follow these steps:
  
 
 
-1 back on the Github repository settings, select `Actions` 
+1. back on the Github repository settings, select `Actions` 
 
 1. click the Green button to enable workflows
 
-    ![green button enable workflows](figures/enable_workflows.png)
+![green button enable workflows](figures/enable_workflows.png)
 
 
 1.  click the `Build thesis PDF` action
 
-    ![the FIRST time you must click to run the Github actions workflow to Build Thesis PDF](figures/github_actions.png)
+![the FIRST time you must click to run the Github actions workflow to Build Thesis PDF](figures/github_actions.png)
  
 1. It will take something like 25-60 seconds (depending on number of pages / complexity of document - but remmeber, this is a free Linux virtual machine from Github :-):
 
-    ![20-60 seconds to generate PDF](figures/seconds.png)
+![20-60 seconds to generate PDF](figures/seconds.png)
 
 1. Look at the OUTPUT for the Github ACTIONS – you should be able to download a newly created PDF of the thesis !
 
-    ![click to download generated PDF](figures/actions_output.png)
- 
-    Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
+![click to download generated PDF](figures/actions_output.png)
+
+Github actions runs a Linux machine and runs [PanDoc](https://pandoc.org/) and [Latex](https://www.latex-project.org/) and builds the PDF from the files !
 
 ## Add / remove chapters from your thesis
 
