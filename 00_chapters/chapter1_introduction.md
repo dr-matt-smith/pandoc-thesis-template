@@ -12,6 +12,34 @@ You can cite the figure in the text (to match the automatic figure numbering). S
 
 (Thanks to Lokikaze for publishing this image on [Deviant Art](http://lokikaze.deviantart.com/art/Octo-Dog-MSPaint-186013612))
 
+Here is a bulleted list using minus-signs before each item:
+
+- apples
+- pears
+- bananas
+
+Here is a numbered list using `1. ` before each item:
+
+1. blue
+1. green
+1. yellow
+1. gold
+
+here is some code inline using backticks:. A good loop is `foreach`
+
+here are some lines of code using indentation
+
+	foreach($cars as $car){
+		print $car->getRegistration();
+	}
+
+To get better syntax highlighing you can triple backtick code blocks and state the language:
+
+```php
+foreach($cars as $car){
+	print $car->getRegistration();
+}
+```
 
 You need to insert empty lines at the end of each section.....  
 
@@ -60,3 +88,6 @@ If you don't want to edit tables manually in MarkDown, a great free online tool 
 ![Online table Markdown (and LaTeX) creator. \label{table_convert}](03_figures/introduction/table_convert.png){ width=75% }
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
+-->
