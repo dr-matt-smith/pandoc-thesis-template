@@ -1,3 +1,11 @@
+# BibTeX
+
+Here are some web sources to learn more about BibTeX:
+
+- [University of Saskatchewan Library BibTex information](https://libguides.usask.ca/c.php?g=218034&p=1440030)
+
+- [University of Toronto BibTex guide](https://www.economics.utoronto.ca/osborne/latex/BIBTEX.HTM)
+
 # CSL and BibTeX references
 
 A nice mapping of BibTex types/fields for CSL has been posted by Joeran Beel on 8th August 2012:
