@@ -21,6 +21,31 @@ There are some great books out here, e.g. see [@hitch_hikers_guide].
 
 If you want to learn about Unity game programming try a cookbook [@smith2018].
 
-## Spelling
+## Example of a Table
 
-there is a "d" in "fridge"!
+Below see Table \ref{hugh_et_al}, for a list tech things, and in the Markdown source how to create such a table.
+
+<!-- ***************************************************** -->
+<!-- ****************** start of table ******************* -->
+<!-- ***************************************************** -->
+Table: (Descripting of some computing techy things) \label{hugh_et_al}
+
+
+Item                 | Description                              | hrs   | rate
+---------------------|------------------------------------------|-------|----
+Hugo Installation    | Static HTML site generator               | 2     | 180
+Database Integration | Testing of data structures               | 2     | 180
+SCORM integration    | Connecting to Moodle                     | 6     | 180
+Design and CSS       | Design of web page front-end             | 4     | 180
+Testing and Tuning   | Ensuring that components are functional  | 3     | 180
+                     | Subtotals                                |       |
+                     | Discount                                 |       |    
+                     | Total (ex. GST)                          |       |
+                     | Total (inc. GST)                         |       |
+ 
+<!-- ***************************************************** -->
+
+See Figure \ref{md_tables} for how to create tables using MarkDown and a little bit of LaTeX.
+
+![MarkDown source code for tables. \label{md_tables}](03_figures/introduction/tables_markdown.png)
+
