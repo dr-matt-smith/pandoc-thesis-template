@@ -12,17 +12,22 @@ jobs:
         01_front_material/2_declaration.md
         01_front_material/3_abstract.md
         01_front_material/4_acknowledgements.md
-        92_toc/toc.md 00_chapters/chapter1_introduction.md
+        break_____________________
+        92_toc/toc.md 
+        break_____________________
+        00_chapters/chapter1_introduction.md
         00_chapters/chapter2_extra_results.md
         00_chapters/chapter3_generaldiscussion.md
+        break_____________________
         04_appendices/0_appendices.md
         04_appendices/A_software_tools.md
         04_appendices/B_questionnaire.md
         04_appendices/C_webapplication.md
+        break_____________________        
         05_references/references.md
     steps:
       - uses: actions/checkout@v2
-      - run: |
+      - run: 
           mkdir output  # create output dir
       - uses: docker://pandoc/latex:2.9
         with:
