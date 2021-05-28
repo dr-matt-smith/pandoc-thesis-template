@@ -1,6 +1,6 @@
-\newcommand\titleLineOne{A musical tool written in PHP}
-\newcommand\titleLineTwo{(that sometimes works)}
-\newcommand\thesisAuthor{Rose Murphy}
+\newcommand\titleLineOne{Why is there no butter in the fridge}
+\newcommand\titleLineTwo{(I don't want to walk to the shops)}
+\newcommand\thesisAuthor{Charlotte Smith}
 \newcommand\supervisor{Dr. Matt Smith}
 \newcommand\degree{B.Sc. (Hons) in Science in Computing}
 \newcommand\thesisYear{2020}
