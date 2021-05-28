@@ -13,7 +13,9 @@ jobs:
         01_front_material/3_abstract.md
         01_front_material/4_acknowledgements.md
         break_____________________
-        92_toc/toc.md 
+        92_toc/table_of_contents.md
+        92_toc/list_of_figures.md
+        92_toc/list_of_tables.md
         break_____________________
         00_chapters/chapter0_chaprtersStartHere.md
         00_chapters/chapter1_introduction.md

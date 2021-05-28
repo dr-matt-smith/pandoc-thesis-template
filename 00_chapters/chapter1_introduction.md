@@ -28,7 +28,7 @@ Below see Table \ref{hugh_et_al}, for a list tech things, and in the Markdown so
 <!-- ***************************************************** -->
 <!-- ****************** start of table ******************* -->
 <!-- ***************************************************** -->
-Table: (Descripting of some computing techy things) \label{hugh_et_al}
+Table: Description of some computing techy things. \label{hugh_et_al}
 
 
 Item                 | Description                              | hrs   | rate

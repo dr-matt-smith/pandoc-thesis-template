@@ -147,6 +147,13 @@ You can cite the figure number in the text (to match the automatic figure number
     ![Github's famous 'Octocat'! \label{octocat}](03_figures/octocat.png)
 ```
 
+## Removing List of Figures / Tables
+
+Just remove the appropriate line(s) from the workflow YAML file if you don't want a List of Tables / Figures generated after the Table of Contents.
+
+
+
+![Lines to remove to remove list of figures & tables](figures/remove_list_of_figures.png)
 
 ## Further reference
 
