@@ -3,6 +3,10 @@ pandoc-thesis-template
 
 A template for creating a degree project thesis in markdown + pandoc
 
+If you're at TU Dublin, here's a video of the basics:
+
+- [https://web.microsoftstream.com/video/c37d267f-b1bf-4dbf-a89d-839afe50ce80](https://web.microsoftstream.com/video/c37d267f-b1bf-4dbf-a89d-839afe50ce80)
+
 ## Example of what you can generate EASILY
 
 Here is the type of PDF thesis document you can easily generate using this repository template:
