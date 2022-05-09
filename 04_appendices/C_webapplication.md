@@ -33,4 +33,3 @@ Code listing for `/src/WebApplication.php`. This class is the decision-making lo
     }
 ```
 
-    
