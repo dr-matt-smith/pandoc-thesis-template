@@ -21,6 +21,7 @@ jobs:
         00_chapters/chapter1_introduction.md
         00_chapters/chapter2_extra_results.md
         00_chapters/chapter3_generaldiscussion.md
+        00_chapters/chatper4_demo.md
         break_____________________
         04_appendices/0_appendices.md
         04_appendices/A_software_tools.md
