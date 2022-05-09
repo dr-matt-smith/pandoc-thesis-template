@@ -61,17 +61,17 @@ Below see Table \ref{hugh_et_al}, for a list tech things, and in the Markdown so
 Table: Description of some computing techy things. \label{hugh_et_al}
 
 
-Item                 | Description                              | hrs   | rate
----------------------|------------------------------------------|-------|----
-Hugo Installation    | Static HTML site generator               | 2     | 180
-Database Integration | Testing of data structures               | 2     | 180
-SCORM integration    | Connecting to Moodle                     | 6     | 180
-Design and CSS       | Design of web page front-end             | 4     | 180
-Testing and Tuning   | Ensuring that components are functional  | 3     | 180
-                     | Subtotals                                |       |
-                     | Discount                                 |       |    
-                     | Total (ex. GST)                          |       |
-                     | Total (inc. GST)                         |       |
+|Item                 | Description                              | hrs   | rate
+|---------------------|------------------------------------------|-------|----
+|Hugo Installation    | Static HTML site generator               | 2     | 180
+|Database Integration | Testing of data structures               | 2     | 180
+|SCORM integration    | Connecting to Moodle                     | 6     | 180
+|Design and CSS       | Design of web page front-end             | 4     | 180
+|Testing and Tuning   | Ensuring that components are functional  | 3     | 180
+|                     | Subtotals                                |       |
+|                     | Discount                                 |       |
+|                     | Total (ex. GST)                          |       |
+|                     | Total (inc. GST)                         |       |
  
 <!-- ***************************************************** -->
 
