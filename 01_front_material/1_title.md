@@ -1,9 +1,9 @@
-\newcommand\titleLineOne{Why is there no peanut butter in the fridge}
+\newcommand\titleLineOne{Why is there no garlic butter in the fridge}
 \newcommand\titleLineTwo{(I don't want to walk to the shops)}
-\newcommand\thesisAuthor{Charlotte Smith}
+\newcommand\thesisAuthor{Egin Murpy}
 \newcommand\supervisor{Dr. Matt Smith}
 \newcommand\degree{B.Sc. (Hons) in Science in Computing}
-\newcommand\thesisYear{2020}
+\newcommand\thesisYear{2022}
 \newcommand\institution{TU Dublin}
 \newcommand\address{Dublin, Ireland}
 \begin{titlepage}
