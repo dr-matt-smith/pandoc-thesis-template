@@ -2,7 +2,7 @@
 
 ## Simple figure
 
-Here is a simple figure.
+Here is a simple figure - it's the Github cat thing logo...
 
 ![Github's famous 'Octocat'!](03_figures/introduction/octocat.png)
 
