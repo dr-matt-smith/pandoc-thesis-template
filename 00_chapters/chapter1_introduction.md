@@ -17,6 +17,7 @@ Here is a bulleted list using minus-signs before each item:
 - apples
 - pears
 - bananas
+- grapes
 
 Here is a numbered list using `1. ` before each item:
 
