@@ -68,7 +68,7 @@ Having done the above once, your PDF to be created automatically in the future e
 
 Add / remove chapters/appendices from the `00_chapters` and `04_appendices` folders. But you must also update file `.github/workflows/generate_pdf.yml` to match the sequence of chapters/appendices you want.
 
-![update actions YAML when add-remove chapters and appendices](figures/add_remove_chapters.png)
+![update actions YAML when add-remove chapters and appendices](figures/add_remove_chapters2.png)
 
 **NOTE** I find it simplest to add a `break_______________` after **every** page
 - this ensures there is **always** at least one blank line after each chapter document, which prevents content from 2 chapters runing together into a single chapter 
