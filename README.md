@@ -70,6 +70,9 @@ Add / remove chapters/appendices from the `00_chapters` and `04_appendices` fold
 
 ![update actions YAML when add-remove chapters and appendices](figures/add_remove_chapters.png)
 
+**NOTE** I find it simplest to add a `break_______________` after **every** page
+- this ensures there is **always** at least one blank line after each chapter document, which prevents content from 2 chapters runing together into a single chapter 
+
 ## work on your local machine
 
 if you still wish to work on your local machine (why???!!) then here are details in the [old README](README_OLD.md)
