@@ -79,7 +79,7 @@ if you still wish to work on your local machine (why???!!) then here are details
 
 ## References
 
-Add to the collection of references in `/99_references/references.bib`
+Add to the collection of references in `/05_references/references.bib`
 
 Only items that are cited will be added to the list of references in the generated PDF.
 
