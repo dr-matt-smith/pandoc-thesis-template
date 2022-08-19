@@ -153,7 +153,7 @@ Use the exclamation mark, followed by caption text (in square brackets), and the
 You can cite the figure number in the text (to match the automatic figure numbering) by adding a `\label{<label>}` in the figure line, and using `\ref{<label>}` in your text to get the figure number, e.g.:
 
 ```
-    See Figiure \ref{octocat} to see the famous Github Octocat logo.
+    See Figure \ref{octocat} to see the famous Github Octocat logo.
 
     ![Github's famous 'Octocat'! \label{octocat}](03_figures/octocat.png)
 ```
