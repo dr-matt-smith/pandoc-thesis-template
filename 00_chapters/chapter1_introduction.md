@@ -50,6 +50,8 @@ There are some great books out here, e.g. see [@hitch_hikers_guide].
 
 If you want to learn about Unity game programming try a cookbook [@smith2018].
 
+Here is another reference [heilmann2021].
+
 Another sentence typed here.
 
 ## Example of a Table
