@@ -94,6 +94,7 @@ If you don't want to edit tables manually in MarkDown, a great free online tool 
 
 I am testing build times in May 2023 ....
 
+changed to ubuntu-22.04 hoping actions will tun mow ...
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMzgyMjIxMjIzXX0=
 -->
