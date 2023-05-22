@@ -45,7 +45,7 @@ jobs:
         05_references/references.md
         break_____________________
     steps:
-      - uses: actions/checkout@v2 
+      - uses: actions/checkout@v3 
       - run: 
           mkdir output  # create output dir
       - uses: docker://pandoc/latex:2.9
