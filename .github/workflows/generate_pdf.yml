@@ -5,7 +5,7 @@ on: push
 
 jobs:
   convert_via_pandoc:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     env:
       FILELIST:
         01_front_material/1_title.md
