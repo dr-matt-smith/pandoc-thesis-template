@@ -1,5 +1,14 @@
 # Introduction
 
+
+## Sectioin to show Shane
+
+Here is a list of advantages of Github
+- no LaTeX coding
+- it builds the PDF for you
+- all backed up on Github automatically
+
+
 ## Simple figure
 
 Here is a simple figure - it's the Github cat thing logo...
