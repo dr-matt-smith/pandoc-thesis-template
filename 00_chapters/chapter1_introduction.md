@@ -1,13 +1,14 @@
 # Introduction
 
 
-## Sectioin to show Shane
+## Section to show Shane
 
 Here is a list of advantages of Github
 - no LaTeX coding
 - it builds the PDF for you
 - all backed up on Github automatically
 
+And here is a referece to \ref{Walczak:2010uk} - some protein artile i thiinkk ....
 
 ## Simple figure
 
