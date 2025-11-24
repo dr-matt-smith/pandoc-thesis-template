@@ -8,7 +8,7 @@ Here is a list of advantages of Github
 - it builds the PDF for you
 - all backed up on Github automatically
 
-And here is a referece to \ref{Walczak:2010uk} - some protein artile i thiinkk ....
+And here is a referece to [@Walczak:2010uk] - some protein artile i thiinkk ....
 
 ## Simple figure
 
